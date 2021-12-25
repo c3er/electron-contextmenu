@@ -1,0 +1,24 @@
+{
+  "name": "electron-contextmenu",
+  "version": "1.0.0",
+  "description": "Small test application for the Electron context menu",
+  "keywords": [
+    "performance"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/c3er/electron-contextmenu.git"
+  },
+  "author": "Christian Dreier",
+  "license": "MIT",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "16.0.5"
+  },
+  "dependencies": {
+    "@electron/remote": "2.0.1"
+  }
+}
